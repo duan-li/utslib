@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//the Unix time stamp library 0.1.1  by c++ language--(timestamplib.h)
+//the Unix time stamp library 0.1.2  by c++ language--(timestamplib.h)
 //improtamt:
 //      1. there are two files in this library, they are timestamplib.h and timestamplib.cpp. this is the first file (timestamplib.h)
 //      2. author can not ensure there are no mathematics error in this library.

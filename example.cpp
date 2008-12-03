@@ -8,7 +8,7 @@ using namespace std ;
 
 int main(){
   class timestamp mytime;
-  long t = 1228989721;
+  long t = 1228193300;
   mytime.uts2time(t);// output system time
   cout << endl << mytime.time2uts(2008,12,11,10,2,1);//output time stamp
 }
