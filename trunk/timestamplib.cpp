@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//the Unix time stamp library 0.1.1  by c++ language--(timestamplib.h)
+//the Unix time stamp library 0.1.2  by c++ language--(timestamplib.h)
 //improtamt:
 //      1. there are two files in this library, they are timestamplib.h and timestamplib.cpp. this is the second file (timestamplib.cpp)
 //      2. author can not ensure there are no mathematics error in this library.
@@ -22,7 +22,7 @@ void timestamp::uts2time(time_t ust){
 	time_t time;
 	
 	string mon[12] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
-	string week[7] = {"Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"};
+	string week[7] = {"Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"};
 	
 	
 	time = ust;
